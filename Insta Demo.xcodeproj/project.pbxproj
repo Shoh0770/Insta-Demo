@@ -13,6 +13,8 @@
 		1339729A2873168900782657 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 133972982873168900782657 /* Main.storyboard */; };
 		1339729C2873168A00782657 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1339729B2873168A00782657 /* Assets.xcassets */; };
 		1339729F2873168A00782657 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1339729D2873168A00782657 /* LaunchScreen.storyboard */; };
+		133972A8287316A600782657 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 133972A6287316A600782657 /* HomeViewController.swift */; };
+		133972A9287316A600782657 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 133972A7287316A600782657 /* HomeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		1339729B2873168A00782657 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1339729E2873168A00782657 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		133972A02873168A00782657 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		133972A6287316A600782657 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		133972A7287316A600782657 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,7 @@
 		133972862873168900782657 = {
 			isa = PBXGroup;
 			children = (
+				133972AA28731AA300782657 /* all */,
 				133972912873168900782657 /* Insta Demo */,
 				133972902873168900782657 /* Products */,
 			);
@@ -65,6 +70,15 @@
 				133972A02873168A00782657 /* Info.plist */,
 			);
 			path = "Insta Demo";
+			sourceTree = "<group>";
+		};
+		133972AA28731AA300782657 /* all */ = {
+			isa = PBXGroup;
+			children = (
+				133972A6287316A600782657 /* HomeViewController.swift */,
+				133972A7287316A600782657 /* HomeViewController.xib */,
+			);
+			path = all;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +142,7 @@
 				1339729F2873168A00782657 /* LaunchScreen.storyboard in Resources */,
 				1339729C2873168A00782657 /* Assets.xcassets in Resources */,
 				1339729A2873168900782657 /* Main.storyboard in Resources */,
+				133972A9287316A600782657 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +156,7 @@
 				133972972873168900782657 /* ViewController.swift in Sources */,
 				133972932873168900782657 /* AppDelegate.swift in Sources */,
 				133972952873168900782657 /* SceneDelegate.swift in Sources */,
+				133972A8287316A600782657 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
